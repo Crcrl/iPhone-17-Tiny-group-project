@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sign up - AUSWO</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  /* nav */
+  .top {
+    background-color: #2a86ab;
+    height: 80px;
+    text-align: center;
+    position: relative;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    overflow: hidden;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* cards */
+  .card {
+    background-color: #eaf4f8;
+    width: 350px;
+    margin: 80px auto 20px;
+    padding: 20px;
+  }
+  .card h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .field {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .field input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+  }
+  .field button {
+    padding: 8px;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a86ab;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* footbar */
+  .footer-bar {
+    width: 350px;
+    background-color: #2a86ab;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .footer-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- top of dick -->
+  <div class="top">
+    <div class="logo">
+      <img src="img/logo2.jpg" alt="AUSWO Logo">
+    </div>
+  </div>
+
+  <!-- shit -->
+  <div class="card">
+    <h1>Sign up</h1>
+
+    <div class="field">
+      <input type="text" placeholder="Username">
+    </div>
+    <div class="field">
+      <input type="email" placeholder="Email Address">
+    </div>
+    <div class="field">
+      <input type="password" placeholder="Password">
+      <button type="button">show</button>
+    </div>
+    <div class="field">
+      <input type="password" placeholder="Confirm Password">
+      <button type="button">show</button>
+    </div>
+    <div class="field">
+      <input type="tel" placeholder="Phone number">
+      <button type="button">verify</button>
+    </div>
+    <div class="field">
+      <input type="text" placeholder="Passcode">
+    </div>
+
+    <button class="submit">Create Account</button>
+  </div>
+
+  <!-- bottom -->
+  <div class="footer-bar">
+    <a href="#">Support</a>
+    <a href="#">Terms&amp;Conditions</a>
+    <a href="#">Privacy Policy</a>
+  </div>
+
+</body>
+</html>
